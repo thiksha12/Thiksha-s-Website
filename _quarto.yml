@@ -8,7 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: Blog/index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -19,4 +22,3 @@ format:
     toc: true
 
 editor: visual
-
