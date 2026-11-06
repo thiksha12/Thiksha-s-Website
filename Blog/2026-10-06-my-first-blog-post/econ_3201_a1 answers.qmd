@@ -1,0 +1,483 @@
+---
+title: |
+  | ECON 3201 
+  | Econometrics for Economics and Finance
+subtitle: |
+    | Assignment 1
+    | Due Thursday October 8, 2026
+author: Thiksha Sathish Kumar
+format: 
+  pdf:
+    include-in-header: 
+      text: |
+        \usepackage{fancyhdr}
+        \fancypagestyle{style1}{
+        \fancyhf{}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{0.4pt}
+        }
+
+        \fancypagestyle{style2}{
+        \fancyhf{}
+        \fancyhead[R]{Assignment 1}
+        \fancyhead[L]{ECON 3201}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{1pt}
+        }
+        \pagestyle{style2}
+callout-appearance: minimal
+---
+
+# Instructions {.unnumbered}
+
+Answer all questions. Please complete your assignment using Quarto. Submit both your Quarto file and pdf output file.
+
+# Theory Questions
+
+## Q1
+
+Create a personal Quarto website hosted on GitHup pages. For reference, please see the slides for **website** on Nexus. Your website should include the following:
+
+i.  An “Index” or “Home” page. This page should include the following:
+    - Your name
+    - Your photo (optional)
+    - Your credentials
+    - An “About Me” section that provides a brief (one paragraph) introduction to yourself. \[10 Marks\]
+ii. A blog page. This will be the landing site for future assignments \[5 Marks\]
+iii. Create a blog post and upload the finished PDF for this assignment. \[3 Marks\]
+iv. Navigation bar with “Home” and "Blog" buttons. The navigation bar is edited in the “\_quarto.yml” file. \[2 Marks\]
+
+::: callout-tip
+http://localhost:3336/home.html
+:::
+
+## Q2
+
+Write your solutions using LaTeX. Show your work. You may use R to compute the answers.
+
+Let $X=\{1,2,3,4,5,6,7,8,9,10,11,12$ be a uniformly distributed variable with probability distribution function $f_X(x)=1/12$.
+
+> (a) Check that $f_X(x)$ is a true probability distribution.
+
+::: callout-tip
+The distribution is valid because all probabilities are non-negative and the probabilities add up to 1.
+
+$$
+f_X(x) \geq 0
+$$
+
+and
+
+$$
+\sum_{x=1} f_X(x) = 1.
+$$
+
+Since
+
+$$
+f_X(x) = \frac{1}{12} > 0
+$$
+
+for all $x = 1,2,\ldots,12$, and
+
+$$
+\sum_{x=1}^{12} f_X(x)
+= \sum_{x=1}^{12} \frac{1}{12}
+= 12\left(\frac{1}{12}\right)
+= 1,
+$$
+
+$f_X(x)$ is a true probability distribution.
+:::
+
+> (b) Compute the expected value of $X$.
+
+::: callout-tip
+$$
+E[X] = \sum_{x=1}^{12} x f_X(x).
+$$
+
+Therefore,
+
+$$
+\begin{aligned}
+E[X]
+&= \sum_{x=1}^{12} x\left(\frac{1}{12}\right) \\
+&= \frac{1}{12}\sum_{x=1}^{12}x \\
+&= \frac{1}{12}(1+2+3+4+5+6+7+8+9+10+11+12) \\
+&= \frac{1}{12}(78) \\
+&= 6.5.
+\end{aligned}
+$$
+:::
+
+> (c) Compute the variance of $X$.
+
+::: callout-tip
+The variance of $X$ is
+
+$$
+Var(X) = E[X^2] - [E[X]]^2.
+$$
+
+First, compute $E[X^2]$:
+
+$$
+\begin{aligned}
+E[X^2]
+&= \sum_{x=1}^{12} x^2 f_X(x) \\
+&= \sum_{x=1}^{12} x^2\left(\frac{1}{12}\right) \\
+&= \frac{1}{12}(1^2+2^2+\cdots+12^2) \\
+&= \frac{1}{12}(650) \\
+&= \frac{325}{6}.
+\end{aligned}
+$$
+
+Therefore,
+
+$$
+\begin{aligned}
+Var(X)
+&= E[X^2] - [E[X]]^2 \\
+&= \frac{325}{6} - (6.5)^2 \\
+&= \frac{325}{6} - 42.25 \\
+&= 11.9167.
+\end{aligned}
+$$
+
+Thus,
+
+$$
+Var(X) \approx 11.9167.
+$$
+:::
+
+## Q3
+
+Let $X\sim N(4,5)$. Find the probability of each event:
+
+(a) $Pr(X\leq6)$
+
+::: callout-tip
+$$
+Z = \frac{X-\mu}{\sigma}.
+$$
+
+Since $\mu=4$ and $\sigma=\sqrt{5}$,
+
+$$
+P(X\leq6)
+= P\left(Z≤\frac{6-4}{\sqrt{5}}\right)
+= P(Z\leq0.8944).
+$$
+
+Using the standard normal distribution,
+
+$$
+P(Z≤0.8944) \approx 0.8145.
+$$
+
+Therefore,
+
+$$
+P(X\leq6) \approx 0.8145.
+$$
+:::
+
+(b) $Pr(X>4)$
+
+::: callout-tip
+$$
+P(X>4)
+= P\left(Z>\frac{4-4}{\sqrt{5}}\right)
+= P(Z>0).
+$$
+
+By symmetry of the standard normal distribution,
+
+$$
+P(Z>0)= 0.5
+$$
+
+Therefore,
+
+$$
+P(X>4)= 0.5
+$$
+:::
+
+(c) $Pr(-1\leq X< 1)$
+
+::: callout-tip
+$$
+\begin{aligned}
+P(-1 ≤ X<1)
+&= P\left(\frac{-1-4}{\sqrt{5}} ≤ Z<\frac{1-4}{\sqrt{5}}\right) \\
+&= P(-2.2361 ≤ Z<-1.3416)
+\end{aligned} 
+$$
+
+Therefore,
+
+$$
+\begin{aligned}
+P(-1≤ X<1)
+&= P(Z<-1.3416)-P(Z<-2.2361) \\
+&\approx 0.0899-0.0127
+&= 0.0772.
+\end{aligned}
+$$
+
+Therefore,
+
+$$
+P(-1 ≤ X<1)\approx0.0772.
+$$
+:::
+
+## Q4
+
+Let $Z\sim N(0,1)$.
+
+(a) Compute $Pr(Z\leq 0.83)$
+
+::: callout-tip
+$$
+P(Z ≤ 0.83)=0.7967.
+$$
+
+Therefore,
+
+$$
+P(Z ≤ 0.83)=0.7967.
+$$
+:::
+
+(b) Compute $Pr(-0.83 \leq Z\leq 0.83)$
+
+::: callout-tip
+Using the symmetry of the standard normal distribution,
+
+$$
+P(-0.83 ≤  Z ≤ 0.83)
+= P(Z ≤ 0.83)-P(Z<-0.83).
+$$
+
+From the standard normal distribution table,
+
+$$
+P(Z ≤ 0.83)=0.7967
+$$
+
+and
+
+$$
+P(Z<-0.83)=0.2033.
+$$
+
+Therefore,
+
+$$
+\begin{aligned}
+P(-0.83 ≤  Z ≤ 0.83)
+&=0.7967-0.2033\\
+&=0.5934.
+\end{aligned}
+$$
+
+Therefore,
+
+$$
+P(-0.83 ≤  Z ≤ 0.83)=0.5934
+$$
+:::
+
+# R Excercises
+
+## Q5
+
+Let $X=\{1,2,3,4,5,6,7,8,9,10,11,12$ be a uniformly distributed variable with probability distribution function $f_X(x)=1/12$.
+
+(a) Plot the probability distribution function $f_X(x)$ in R.
+
+::: callout-tip
+```{r}
+x= 1:12
+p= rep(1/12, 12)
+
+plot(x, p, type = "h", xlab = "x", ylab = "f(x)", main = "Probability Distribution Function")
+```
+:::
+
+(b) Plot the cumulative probability distribution function $f_X(x) in R$.
+
+::: callout-tip
+```{r}
+cdf= cumsum(p)
+
+plot(x, cdf, type = "s", xlab = "x", ylab = "F(x)", main = "Cumulative Distribution Function")
+```
+:::
+
+(c) Compute the expected value of $X$ in R.
+
+::: callout-tip
+```{r}
+expected_value= sum(x * p)
+expected_value
+```
+:::
+
+(d) Compute the variance of $X$ in R.
+
+::: callout-tip
+```{r}
+variance= sum((x - expected_value)^2 * p)
+variance
+```
+:::
+
+## Q6
+
+The standard normal distribution function is given by $$f(x)=\frac{e^{-(x^2/2)}}{\sqrt{2\pi}\sigma}$$
+
+(a) Define this function in R. (Note: $\pi$ is coded as `pi` and $e$ is coded as `exp`.
+
+::: callout-tip
+```{r}
+f= function(x) {(1 / sqrt(2 * pi)) * exp(-x^2 / 2)}
+f
+```
+:::
+
+(b) Integrate this function over the limit \[$-\infty,\infty$\] using the `integrate()` command in R. Infinity in R is written as `Inf`. To evaluate the integral, use `integrate()$value`
+
+::: callout-tip
+```{r}
+total_prob= integrate(f, lower = -Inf, upper = Inf)$value
+total_prob
+```
+:::
+
+(c) Compute the expected value of the standard normal distribution in R and confirm it is equal to 0.
+
+::: callout-tip
+```{r}
+expected_val_func= function(x) {x * f(x)}
+
+expected_value= integrate(expected_val_func, lower = -Inf, upper = Inf)$value
+expected_value
+```
+:::
+
+(d) Compute the variance of the standard normal distribution in R and confirm it is equal to 1.
+
+::: callout-tip
+```{r}
+variance_func= function(x) {(x^2) * f(x)}
+
+variance= integrate(variance_func, lower = -Inf, upper = Inf)$value
+variance
+```
+:::
+
+(e) Compute $Pr(Z\leq 0.83)$
+
+::: callout-tip
+```{r}
+prob_e= integrate(f, lower = -Inf, upper = 0.83)$value
+prob_e
+```
+:::
+
+(f) Compute $Pr(-0.83 \leq Z\leq 0.83)$
+
+::: callout-tip
+```{r}
+prob_f= integrate(f, lower = -0.83, upper = 0.83)$value
+prob_f
+```
+:::
+
+(g) Compute $Pr(-0.83 \leq Z\leq 0.83)$ using the `pnorm()` command and compare your results to (f).
+
+::: callout-tip
+```{r}
+prob_g= pnorm(0.83) - pnorm(-0.83)
+prob_g
+```
+:::
+
+## Q7
+
+Let $X$ denote the prison sentence, in years, for people convicted of auto theft in a particular province in Canada. Suppose the PDF of $X$ is given by: $$f(X)=\frac{1}{9}x^2,\text{ }0<x<3.$$
+
+(a) Define $f(x)$ in R.
+
+::: callout-tip
+```{r}
+f= function(x) {(1 / 9) * x^2}
+f
+```
+:::
+
+(b) Integrate $f(x)$ over the interval \[0,3\].
+
+::: callout-tip
+```{r}
+total_prob= integrate(f, lower = 0, upper = 3)$value
+total_prob
+```
+:::
+
+(c) Compute the expected prison sentence.
+
+::: callout-tip
+The expected value is given by $E[X] = \int_0^3 x \cdot f(x) \, dx$:
+
+```{r}
+# Function for x * f(x)
+exp_func= function(x) {x * f(x)}
+
+# Integrate x * f(x) from 0 to 3
+expected_sentence= integrate(exp_func, lower = 0, upper = 3)$value
+expected_sentence
+```
+:::
+
+## Q8
+
+Let $X$ follow a Student $t$ distribution with $M$ degrees of freedom. Then $$X=\frac{Z}{\sqrt{W/M}}\sim t_M,$$ where $Z$ is a standard normal variable and $W$ is a chi-squared variable with $M$ degrees of freedom.
+
+(a) On the same figure plot the following:
+    (i) Plot the standard normal probability distribution using `curve()`. Specify the range as \[-5,5\] using `xlim`. Name the `ylab` "Density". The main title should be "Densities of t Distribution".
+    (ii) Plot the Student t distribution with 5 degrees of freedom using `curve()` and `dt()`. Specify the range as \[-5,5\] using `xlim`. Choose a different colour, i.e. `col=2`. To learn more about `dt`, type `?dt` in your console.
+    (iii) Plot the Student t distribution with 15 degrees of freedom using `curve()` and `dt()`. Specify the range as \[-5,5\] using `xlim`. Choose a different colour, i.e. `col=3`. To learn more about `dt`, type `?dt` in your console.
+    (iv) Plot the Student t distribution with 25 degrees of freedom using `curve()` and `dt()`. Specify the range as \[-5,5\] using `xlim`. Choose a different colour, i.e. `col=4`. To learn more about `dt`, type `?dt` in your console.
+    (v) Include the following legend in you plot:\
+        `legend("topright",`  `c("N(0, 1)", "M=2", "M=4", "M=25"),`  `col = 1:4,`  `lty = c(1, 1, 1, 1))`\
+
+::: callout-tip
+```{r}
+# (i) Primary plot command - opens the plot window
+curve(dnorm(x), xlim = c(-5, 5), ylab = "Density", main = "Densities of t Distribution", col = 1)
+
+# (ii) Add t-distribution df = 5
+curve(dt(x, df = 5), xlim = c(-5, 5), col = 2, add = TRUE)
+
+# (iii) Add t-distribution df = 15
+curve(dt(x, df = 15), xlim = c(-5, 5), col = 3, add = TRUE)
+
+# (iv) Add t-distribution df = 25
+curve(dt(x, df = 25), xlim = c(-5, 5), col = 4, add = TRUE)
+
+# (v) Add legend
+legend("topright", legend = c("N(0, 1)", "M=5", "M=15", "M=25"), col = 1:4, lty = 1)
+```
+:::
+
+(b) What do you observe as the degrees of freedom increase?
+
+::: callout-tip
+As the degrees of freedom ($M$) increase, the Student $t$-distribution approaches the standard normal distribution $N(0, 1)$. Specifically, the tails become thinner, the peak becomes taller, and by $M = 25$, the $t$-distribution curve is identical to the standard normal curve.
+:::

@@ -19,5 +19,82 @@
     "title": "Index",
     "section": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident.",
     "text": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident."
+  },
+  {
+    "objectID": "Blog/index.html",
+    "href": "Blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here you’ll find my coursework for ECON 3201.\n\n\nCourse: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\nClick Here to View My Completed Assignment 1 (PDF)"
+  },
+  {
+    "objectID": "Blog/index.html#econometrics-assignment-1",
+    "href": "Blog/index.html#econometrics-assignment-1",
+    "title": "Blog",
+    "section": "",
+    "text": "Course: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\nClick Here to View My Completed Assignment 1 (PDF)"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "",
+    "text": "Answer all questions. Please complete your assignment using Quarto. Submit both your Quarto file and pdf output file."
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q1",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q1",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q1",
+    "text": "Q1\nCreate a personal Quarto website hosted on GitHup pages. For reference, please see the slides for website on Nexus. Your website should include the following:\n\nAn “Index” or “Home” page. This page should include the following:\n\nYour name\nYour photo (optional)\nYour credentials\nAn “About Me” section that provides a brief (one paragraph) introduction to yourself. [10 Marks]\n\nA blog page. This will be the landing site for future assignments [5 Marks]\nCreate a blog post and upload the finished PDF for this assignment. [3 Marks]\nNavigation bar with “Home” and “Blog” buttons. The navigation bar is edited in the “_quarto.yml” file. [2 Marks]\n\n\n\n\n\n\n\nhttp://localhost:3336/home.html"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q2",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q2",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q2",
+    "text": "Q2\nWrite your solutions using LaTeX. Show your work. You may use R to compute the answers.\nLet \\(X=\\{1,2,3,4,5,6,7,8,9,10,11,12\\) be a uniformly distributed variable with probability distribution function \\(f_X(x)=1/12\\).\n\n\nCheck that \\(f_X(x)\\) is a true probability distribution.\n\n\n\n\n\n\n\n\nThe distribution is valid because all probabilities are non-negative and the probabilities add up to 1.\n\\[\nf_X(x) \\geq 0\n\\]\nand\n\\[\n\\sum_{x=1} f_X(x) = 1.\n\\]\nSince\n\\[\nf_X(x) = \\frac{1}{12} &gt; 0\n\\]\nfor all \\(x = 1,2,\\ldots,12\\), and\n\\[\n\\sum_{x=1}^{12} f_X(x)\n= \\sum_{x=1}^{12} \\frac{1}{12}\n= 12\\left(\\frac{1}{12}\\right)\n= 1,\n\\]\n\\(f_X(x)\\) is a true probability distribution.\n\n\n\n\n\nCompute the expected value of \\(X\\).\n\n\n\n\n\n\n\n\n\\[\nE[X] = \\sum_{x=1}^{12} x f_X(x).\n\\]\nTherefore,\n\\[\n\\begin{aligned}\nE[X]\n&= \\sum_{x=1}^{12} x\\left(\\frac{1}{12}\\right) \\\\\n&= \\frac{1}{12}\\sum_{x=1}^{12}x \\\\\n&= \\frac{1}{12}(1+2+3+4+5+6+7+8+9+10+11+12) \\\\\n&= \\frac{1}{12}(78) \\\\\n&= 6.5.\n\\end{aligned}\n\\]\n\n\n\n\n\nCompute the variance of \\(X\\).\n\n\n\n\n\n\n\n\nThe variance of \\(X\\) is\n\\[\nVar(X) = E[X^2] - [E[X]]^2.\n\\]\nFirst, compute \\(E[X^2]\\):\n\\[\n\\begin{aligned}\nE[X^2]\n&= \\sum_{x=1}^{12} x^2 f_X(x) \\\\\n&= \\sum_{x=1}^{12} x^2\\left(\\frac{1}{12}\\right) \\\\\n&= \\frac{1}{12}(1^2+2^2+\\cdots+12^2) \\\\\n&= \\frac{1}{12}(650) \\\\\n&= \\frac{325}{6}.\n\\end{aligned}\n\\]\nTherefore,\n\\[\n\\begin{aligned}\nVar(X)\n&= E[X^2] - [E[X]]^2 \\\\\n&= \\frac{325}{6} - (6.5)^2 \\\\\n&= \\frac{325}{6} - 42.25 \\\\\n&= 11.9167.\n\\end{aligned}\n\\]\nThus,\n\\[\nVar(X) \\approx 11.9167.\n\\]"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q3",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q3",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q3",
+    "text": "Q3\nLet \\(X\\sim N(4,5)\\). Find the probability of each event:\n\n\\(Pr(X\\leq6)\\)\n\n\n\n\n\n\n\n\\[\nZ = \\frac{X-\\mu}{\\sigma}.\n\\]\nSince \\(\\mu=4\\) and \\(\\sigma=\\sqrt{5}\\),\n\\[\nP(X\\leq6)\n= P\\left(Z≤\\frac{6-4}{\\sqrt{5}}\\right)\n= P(Z\\leq0.8944).\n\\]\nUsing the standard normal distribution,\n\\[\nP(Z≤0.8944) \\approx 0.8145.\n\\]\nTherefore,\n\\[\nP(X\\leq6) \\approx 0.8145.\n\\]\n\n\n\n\n\\(Pr(X&gt;4)\\)\n\n\n\n\n\n\n\n\\[\nP(X&gt;4)\n= P\\left(Z&gt;\\frac{4-4}{\\sqrt{5}}\\right)\n= P(Z&gt;0).\n\\]\nBy symmetry of the standard normal distribution,\n\\[\nP(Z&gt;0)= 0.5\n\\]\nTherefore,\n\\[\nP(X&gt;4)= 0.5\n\\]\n\n\n\n\n\\(Pr(-1\\leq X&lt; 1)\\)\n\n\n\n\n\n\n\n\\[\n\\begin{aligned}\nP(-1 ≤ X&lt;1)\n&= P\\left(\\frac{-1-4}{\\sqrt{5}} ≤ Z&lt;\\frac{1-4}{\\sqrt{5}}\\right) \\\\\n&= P(-2.2361 ≤ Z&lt;-1.3416)\n\\end{aligned}\n\\]\nTherefore,\n\\[\n\\begin{aligned}\nP(-1≤ X&lt;1)\n&= P(Z&lt;-1.3416)-P(Z&lt;-2.2361) \\\\\n&\\approx 0.0899-0.0127\n&= 0.0772.\n\\end{aligned}\n\\]\nTherefore,\n\\[\nP(-1 ≤ X&lt;1)\\approx0.0772.\n\\]"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q4",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q4",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q4",
+    "text": "Q4\nLet \\(Z\\sim N(0,1)\\).\n\nCompute \\(Pr(Z\\leq 0.83)\\)\n\n\n\n\n\n\n\n\\[\nP(Z ≤ 0.83)=0.7967.\n\\]\nTherefore,\n\\[\nP(Z ≤ 0.83)=0.7967.\n\\]\n\n\n\n\nCompute \\(Pr(-0.83 \\leq Z\\leq 0.83)\\)\n\n\n\n\n\n\n\nUsing the symmetry of the standard normal distribution,\n\\[\nP(-0.83 ≤  Z ≤ 0.83)\n= P(Z ≤ 0.83)-P(Z&lt;-0.83).\n\\]\nFrom the standard normal distribution table,\n\\[\nP(Z ≤ 0.83)=0.7967\n\\]\nand\n\\[\nP(Z&lt;-0.83)=0.2033.\n\\]\nTherefore,\n\\[\n\\begin{aligned}\nP(-0.83 ≤  Z ≤ 0.83)\n&=0.7967-0.2033\\\\\n&=0.5934.\n\\end{aligned}\n\\]\nTherefore,\n\\[\nP(-0.83 ≤  Z ≤ 0.83)=0.5934\n\\]"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q5",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q5",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q5",
+    "text": "Q5\nLet \\(X=\\{1,2,3,4,5,6,7,8,9,10,11,12\\) be a uniformly distributed variable with probability distribution function \\(f_X(x)=1/12\\).\n\nPlot the probability distribution function \\(f_X(x)\\) in R.\n\n\n\n\n\n\n\n\nx= 1:12\np= rep(1/12, 12)\n\nplot(x, p, type = \"h\", xlab = \"x\", ylab = \"f(x)\", main = \"Probability Distribution Function\")\n\n\n\n\n\n\n\n\n\n\n\n\nPlot the cumulative probability distribution function \\(f_X(x) in R\\).\n\n\n\n\n\n\n\n\ncdf= cumsum(p)\n\nplot(x, cdf, type = \"s\", xlab = \"x\", ylab = \"F(x)\", main = \"Cumulative Distribution Function\")\n\n\n\n\n\n\n\n\n\n\n\n\nCompute the expected value of \\(X\\) in R.\n\n\n\n\n\n\n\n\nexpected_value= sum(x * p)\nexpected_value\n\n[1] 6.5\n\n\n\n\n\n\nCompute the variance of \\(X\\) in R.\n\n\n\n\n\n\n\n\nvariance= sum((x - expected_value)^2 * p)\nvariance\n\n[1] 11.91667"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q6",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q6",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q6",
+    "text": "Q6\nThe standard normal distribution function is given by \\[f(x)=\\frac{e^{-(x^2/2)}}{\\sqrt{2\\pi}\\sigma}\\]\n\nDefine this function in R. (Note: \\(\\pi\\) is coded as pi and \\(e\\) is coded as exp.\n\n\n\n\n\n\n\n\nf= function(x) {(1 / sqrt(2 * pi)) * exp(-x^2 / 2)}\nf\n\nfunction (x) \n{\n    (1/sqrt(2 * pi)) * exp(-x^2/2)\n}\n\n\n\n\n\n\nIntegrate this function over the limit [\\(-\\infty,\\infty\\)] using the integrate() command in R. Infinity in R is written as Inf. To evaluate the integral, use integrate()$value\n\n\n\n\n\n\n\n\ntotal_prob= integrate(f, lower = -Inf, upper = Inf)$value\ntotal_prob\n\n[1] 1\n\n\n\n\n\n\nCompute the expected value of the standard normal distribution in R and confirm it is equal to 0.\n\n\n\n\n\n\n\n\nexpected_val_func= function(x) {x * f(x)}\n\nexpected_value= integrate(expected_val_func, lower = -Inf, upper = Inf)$value\nexpected_value\n\n[1] 0\n\n\n\n\n\n\nCompute the variance of the standard normal distribution in R and confirm it is equal to 1.\n\n\n\n\n\n\n\n\nvariance_func= function(x) {(x^2) * f(x)}\n\nvariance= integrate(variance_func, lower = -Inf, upper = Inf)$value\nvariance\n\n[1] 1\n\n\n\n\n\n\nCompute \\(Pr(Z\\leq 0.83)\\)\n\n\n\n\n\n\n\n\nprob_e= integrate(f, lower = -Inf, upper = 0.83)$value\nprob_e\n\n[1] 0.7967306\n\n\n\n\n\n\nCompute \\(Pr(-0.83 \\leq Z\\leq 0.83)\\)\n\n\n\n\n\n\n\n\nprob_f= integrate(f, lower = -0.83, upper = 0.83)$value\nprob_f\n\n[1] 0.5934612\n\n\n\n\n\n\nCompute \\(Pr(-0.83 \\leq Z\\leq 0.83)\\) using the pnorm() command and compare your results to (f).\n\n\n\n\n\n\n\n\nprob_g= pnorm(0.83) - pnorm(-0.83)\nprob_g\n\n[1] 0.5934612"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q7",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q7",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q7",
+    "text": "Q7\nLet \\(X\\) denote the prison sentence, in years, for people convicted of auto theft in a particular province in Canada. Suppose the PDF of \\(X\\) is given by: \\[f(X)=\\frac{1}{9}x^2,\\text{ }0&lt;x&lt;3.\\]\n\nDefine \\(f(x)\\) in R.\n\n\n\n\n\n\n\n\nf= function(x) {(1 / 9) * x^2}\nf\n\nfunction (x) \n{\n    (1/9) * x^2\n}\n\n\n\n\n\n\nIntegrate \\(f(x)\\) over the interval [0,3].\n\n\n\n\n\n\n\n\ntotal_prob= integrate(f, lower = 0, upper = 3)$value\ntotal_prob\n\n[1] 1\n\n\n\n\n\n\nCompute the expected prison sentence.\n\n\n\n\n\n\n\nThe expected value is given by \\(E[X] = \\int_0^3 x \\cdot f(x) \\, dx\\):\n\n# Function for x * f(x)\nexp_func= function(x) {x * f(x)}\n\n# Integrate x * f(x) from 0 to 3\nexpected_sentence= integrate(exp_func, lower = 0, upper = 3)$value\nexpected_sentence\n\n[1] 2.25"
+  },
+  {
+    "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q8",
+    "href": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html#q8",
+    "title": "ECON 3201\nEconometrics for Economics and Finance",
+    "section": "Q8",
+    "text": "Q8\nLet \\(X\\) follow a Student \\(t\\) distribution with \\(M\\) degrees of freedom. Then \\[X=\\frac{Z}{\\sqrt{W/M}}\\sim t_M,\\] where \\(Z\\) is a standard normal variable and \\(W\\) is a chi-squared variable with \\(M\\) degrees of freedom.\n\nOn the same figure plot the following:\n\nPlot the standard normal probability distribution using curve(). Specify the range as [-5,5] using xlim. Name the ylab “Density”. The main title should be “Densities of t Distribution”.\nPlot the Student t distribution with 5 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=2. To learn more about dt, type ?dt in your console.\nPlot the Student t distribution with 15 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=3. To learn more about dt, type ?dt in your console.\nPlot the Student t distribution with 25 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=4. To learn more about dt, type ?dt in your console.\nInclude the following legend in you plot:\nlegend(\"topright\",  c(\"N(0, 1)\", \"M=2\", \"M=4\", \"M=25\"),  col = 1:4,  lty = c(1, 1, 1, 1))\n\n\n\n\n\n\n\n\n\n\n# (i) Primary plot command - opens the plot window\ncurve(dnorm(x), xlim = c(-5, 5), ylab = \"Density\", main = \"Densities of t Distribution\", col = 1)\n\n# (ii) Add t-distribution df = 5\ncurve(dt(x, df = 5), xlim = c(-5, 5), col = 2, add = TRUE)\n\n# (iii) Add t-distribution df = 15\ncurve(dt(x, df = 15), xlim = c(-5, 5), col = 3, add = TRUE)\n\n# (iv) Add t-distribution df = 25\ncurve(dt(x, df = 25), xlim = c(-5, 5), col = 4, add = TRUE)\n\n# (v) Add legend\nlegend(\"topright\", legend = c(\"N(0, 1)\", \"M=5\", \"M=15\", \"M=25\"), col = 1:4, lty = 1)\n\n\n\n\n\n\n\n\n\n\n\n\nWhat do you observe as the degrees of freedom increase?\n\n\n\n\n\n\n\nAs the degrees of freedom (\\(M\\)) increase, the Student \\(t\\)-distribution approaches the standard normal distribution \\(N(0, 1)\\). Specifically, the tails become thinner, the peak becomes taller, and by \\(M = 25\\), the \\(t\\)-distribution curve is identical to the standard normal curve."
   }
 ]
