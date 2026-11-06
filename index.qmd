@@ -1,11 +1,9 @@
 ---
-title: "Thiksha's Website"
+title: "Home"
 ---
 
-This is a Quarto website.
+# Thiksha Sathish Kumar, BBA EFIN
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# About Me
 
-```{r}
-1 + 1
-```
+### I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident.
