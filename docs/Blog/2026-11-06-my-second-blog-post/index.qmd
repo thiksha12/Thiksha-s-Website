@@ -1,7 +1,7 @@
 
 ---
 title: "Econometrics Assignment 2"
-date: "2026-11-05"
+date: "2026-11-09"
 categories: [Econometrics, ECON 3201]
 ---
 

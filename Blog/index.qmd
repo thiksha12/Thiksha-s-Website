@@ -18,3 +18,18 @@ Welcome to my blog! Here you'll find my coursework for ECON 3201.
 ### Completed Assignment
 
 [View My Completed Econometrics Assignment 1 (PDF)](<2026-10-06-my-first-blog-post/econ_3201_a1-answers final (2).pdf>)
+
+---
+
+## Econometrics Assignment 2
+
+**Course:** ECON 3201 – Econometrics for Economics and Finance
+
+**University:** University of Winnipeg
+
+**Assignment:** Assignment 2 – November 6, 2026
+
+### Completed Assignment
+
+[View Assignment 2 (PDF)](<2026-11-06-my-second-blog-post/econ_3201_a2 final.pdf>)
+[View Assignment 2 (QMD)](2026-11-06-my-second-blog-post/econ_3201_a2 final.qmd)
