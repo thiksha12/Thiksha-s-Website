@@ -7,32 +7,25 @@
     "text": "Thiksha Sathish Kumar, BBA EFIN\n\n\nAbout Me\n\nI’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "home.qdm.html#im-a-finance-and-economics-student-at-the-university-of-winnipeg-with-a-strong-interest-in-consulting-financial-planning-and-making-a-positive-impact-through-business.-i-enjoy-solving-problems-taking-on-leadership-roles-and-working-with-people-which-has-led-me-to-get-involved-in-jdc-west-and-other-campus-initiatives.-outside-of-academics-im-passionate-about-learning-personal-finance-and-finding-ways-to-help-others-become-more-financially-confident.",
-    "href": "home.qdm.html#im-a-finance-and-economics-student-at-the-university-of-winnipeg-with-a-strong-interest-in-consulting-financial-planning-and-making-a-positive-impact-through-business.-i-enjoy-solving-problems-taking-on-leadership-roles-and-working-with-people-which-has-led-me-to-get-involved-in-jdc-west-and-other-campus-initiatives.-outside-of-academics-im-passionate-about-learning-personal-finance-and-finding-ways-to-help-others-become-more-financially-confident.",
-    "title": "Index",
-    "section": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident.",
-    "text": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident."
-  },
-  {
     "objectID": "Blog/index.html",
     "href": "Blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to my blog! Here you’ll find my coursework for ECON 3201.\n\n\nCourse: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\nClick Here to View My Completed Assignment 1 (PDF)"
+    "text": "Welcome to my blog! Here you’ll find my coursework for ECON 3201.\n\n\nCourse: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\n\n\nView My Completed Econometrics Assignment 1 (PDF)"
   },
   {
     "objectID": "Blog/index.html#econometrics-assignment-1",
     "href": "Blog/index.html#econometrics-assignment-1",
     "title": "Blog",
     "section": "",
-    "text": "Course: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\nClick Here to View My Completed Assignment 1 (PDF)"
+    "text": "Course: ECON 3201 – Econometrics for Economics and Finance\nUniversity: University of Winnipeg\nAssignment: Assignment 1 – October 19, 2026\n\n\nView My Completed Econometrics Assignment 1 (PDF)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "Blog/2026-10-06-my-first-blog-post/econ_3201_a1 answers.html",
@@ -96,5 +89,12 @@
     "title": "ECON 3201\nEconometrics for Economics and Finance",
     "section": "Q8",
     "text": "Q8\nLet \\(X\\) follow a Student \\(t\\) distribution with \\(M\\) degrees of freedom. Then \\[X=\\frac{Z}{\\sqrt{W/M}}\\sim t_M,\\] where \\(Z\\) is a standard normal variable and \\(W\\) is a chi-squared variable with \\(M\\) degrees of freedom.\n\nOn the same figure plot the following:\n\nPlot the standard normal probability distribution using curve(). Specify the range as [-5,5] using xlim. Name the ylab “Density”. The main title should be “Densities of t Distribution”.\nPlot the Student t distribution with 5 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=2. To learn more about dt, type ?dt in your console.\nPlot the Student t distribution with 15 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=3. To learn more about dt, type ?dt in your console.\nPlot the Student t distribution with 25 degrees of freedom using curve() and dt(). Specify the range as [-5,5] using xlim. Choose a different colour, i.e. col=4. To learn more about dt, type ?dt in your console.\nInclude the following legend in you plot:\nlegend(\"topright\",  c(\"N(0, 1)\", \"M=2\", \"M=4\", \"M=25\"),  col = 1:4,  lty = c(1, 1, 1, 1))\n\n\n\n\n\n\n\n\n\n\n# (i) Primary plot command - opens the plot window\ncurve(dnorm(x), xlim = c(-5, 5), ylab = \"Density\", main = \"Densities of t Distribution\", col = 1)\n\n# (ii) Add t-distribution df = 5\ncurve(dt(x, df = 5), xlim = c(-5, 5), col = 2, add = TRUE)\n\n# (iii) Add t-distribution df = 15\ncurve(dt(x, df = 15), xlim = c(-5, 5), col = 3, add = TRUE)\n\n# (iv) Add t-distribution df = 25\ncurve(dt(x, df = 25), xlim = c(-5, 5), col = 4, add = TRUE)\n\n# (v) Add legend\nlegend(\"topright\", legend = c(\"N(0, 1)\", \"M=5\", \"M=15\", \"M=25\"), col = 1:4, lty = 1)\n\n\n\n\n\n\n\n\n\n\n\n\nWhat do you observe as the degrees of freedom increase?\n\n\n\n\n\n\n\nAs the degrees of freedom (\\(M\\)) increase, the Student \\(t\\)-distribution approaches the standard normal distribution \\(N(0, 1)\\). Specifically, the tails become thinner, the peak becomes taller, and by \\(M = 25\\), the \\(t\\)-distribution curve is identical to the standard normal curve."
+  },
+  {
+    "objectID": "home.qdm.html#im-a-finance-and-economics-student-at-the-university-of-winnipeg-with-a-strong-interest-in-consulting-financial-planning-and-making-a-positive-impact-through-business.-i-enjoy-solving-problems-taking-on-leadership-roles-and-working-with-people-which-has-led-me-to-get-involved-in-jdc-west-and-other-campus-initiatives.-outside-of-academics-im-passionate-about-learning-personal-finance-and-finding-ways-to-help-others-become-more-financially-confident.",
+    "href": "home.qdm.html#im-a-finance-and-economics-student-at-the-university-of-winnipeg-with-a-strong-interest-in-consulting-financial-planning-and-making-a-positive-impact-through-business.-i-enjoy-solving-problems-taking-on-leadership-roles-and-working-with-people-which-has-led-me-to-get-involved-in-jdc-west-and-other-campus-initiatives.-outside-of-academics-im-passionate-about-learning-personal-finance-and-finding-ways-to-help-others-become-more-financially-confident.",
+    "title": "Index",
+    "section": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident.",
+    "text": "I’m a Finance and Economics student at the University of Winnipeg with a strong interest in consulting, financial planning, and making a positive impact through business. I enjoy solving problems, taking on leadership roles, and working with people, which has led me to get involved in JDC West and other campus initiatives. Outside of academics, I’m passionate about learning, personal finance, and finding ways to help others become more financially confident."
   }
 ]

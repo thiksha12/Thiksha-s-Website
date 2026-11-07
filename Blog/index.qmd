@@ -1,9 +1,6 @@
+
 ---
 title: "Blog"
-listing:
-  contents: "*/econometricsA1.qmd"
-  type: default
-  sort: "date desc"
 ---
 
 # Welcome to My Blog!
@@ -18,4 +15,6 @@ Welcome to my blog! Here you'll find my coursework for ECON 3201.
 
 **Assignment:** Assignment 1 – October 19, 2026
 
-[Click Here to View My Completed Assignment 1 (PDF)](2026-10-06-my-first-blog-post/econ_3201_a1-answers (1).pdf)
+### Completed Assignment
+
+[View My Completed Econometrics Assignment 1 (PDF)](<2026-10-06-my-first-blog-post/econ_3201_a1-answers (1).pdf>)

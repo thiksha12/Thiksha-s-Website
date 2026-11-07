@@ -48,7 +48,7 @@ iii. Create a blog post and upload the finished PDF for this assignment. \[3 Mar
 iv. Navigation bar with “Home” and "Blog" buttons. The navigation bar is edited in the “\_quarto.yml” file. \[2 Marks\]
 
 ::: callout-tip
-http://localhost:3336/home.html
+https://thiksha12.github.io/Thiksha-s-Website/
 :::
 
 ## Q2

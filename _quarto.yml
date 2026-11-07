@@ -1,6 +1,9 @@
+
 project:
   type: website
   output-dir: docs
+  resources:
+    - "Blog/**/*.pdf"
 
 website:
   title: "Thiksha's Website"
@@ -10,7 +13,9 @@ website:
         text: Home
       - href: Blog/index.qmd
         text: Blog
-      
+      - href: about.qmd
+        text: About
+
 format:
   html:
     theme:
