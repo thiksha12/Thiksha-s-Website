@@ -4,6 +4,8 @@ project:
   output-dir: docs
   resources:
     - "Blog/**/*.pdf"
+    - "posts/2026-11-06-my-second-blog-post/econ_3201_a2-final.pdf"
+    - "posts/2026-11-06-my-second-blog-post/econ_3201_a2-final.qmd"
 
 website:
   title: "Thiksha's Website"
