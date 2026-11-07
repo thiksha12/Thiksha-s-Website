@@ -10,13 +10,11 @@ website:
   title: "Thiksha's Website"
   navbar:
     left:
-      - href: home.qmd
+      - href: home.qdm.qmd
         text: Home
       - href: Blog/index.qmd
         text: Blog
-      - href: about.qmd
-        text: About
-
+      
 format:
   html:
     theme:
