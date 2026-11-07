@@ -5,13 +5,12 @@ project:
   resources:
     - "Blog/**/*.pdf"
     - "posts/2026-11-06-my-second-blog-post/econ_3201_a2-final.pdf"
-    - "posts/2026-11-06-my-second-blog-post/econ_3201_a2-final.qmd"
 
 website:
   title: "Thiksha's Website"
   navbar:
     left:
-      - href: index.qmd
+      - href: home.qmd
         text: Home
       - href: Blog/index.qmd
         text: Blog
